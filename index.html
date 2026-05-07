@@ -1,1 +1,33 @@
-git
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profession Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>New Employees</h3>
+    <form id="form-container">
+           <div class="form-group">
+            <label for="name" >Enter name</label><br>
+            <input type="text" id="name">
+           </div> 
+           <div class="form-group">
+            <label for="profession" >Enter Profession</label><br>
+            <input type="text" id="profession">
+           </div> 
+           <div class="form-group">
+            <label for="age" >Enter Age</label><br>
+            <input type="text" id="age">
+           </div> 
+    </form>
+    <button id="addBtn">Add User</button>
+    <p id="message"></p>
+    <p >Added Employees</p>
+    <div id="employee-div">
+        <p style="color: #808080;">You have 0 Employees.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
